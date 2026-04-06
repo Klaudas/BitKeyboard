@@ -6,17 +6,118 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXFileReference section */
-		D5C3DD312F7F702F008F4297 /* BitKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
-/* End PBXFileReference section */
+/* Begin PBXBuildFile section */
+		D503BCC82F7FD92800C7A185 /* SymbolSecureMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D503BCC72F7FD92800C7A185 /* SymbolSecureMapper.swift */; };
+		D503BCCA2F7FD92E00C7A185 /* TransportSecureMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D503BCC92F7FD92E00C7A185 /* TransportSecureMapper.swift */; };
+		D503BCCB2F7FD92E00C7A185 /* TransportSecureMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D503BCC92F7FD92E00C7A185 /* TransportSecureMapper.swift */; };
+		D503BCD12F7FDA9300C7A185 /* TransportSecureMapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D503BCD02F7FDA9300C7A185 /* TransportSecureMapperTests.swift */; };
+		D503BCD52F7FDD7400C7A185 /* KeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D503BCD42F7FDD7400C7A185 /* KeyboardView.swift */; };
+		D503BCD82F7FDD9D00C7A185 /* ImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D503BCD72F7FDD9D00C7A185 /* ImageExtensions.swift */; };
+		D5183A162F8367CE006CC380 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D5183A152F8367CE006CC380 /* README.md */; };
+		D51FC7D02F7FDF49000A3FBC /* CGFloatExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51FC7CF2F7FDF49000A3FBC /* CGFloatExtensions.swift */; };
+		D51FC7D12F7FDF49000A3FBC /* CGFloatExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51FC7CF2F7FDF49000A3FBC /* CGFloatExtensions.swift */; };
+		D51FC7D82F7FEC85000A3FBC /* TransportDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51FC7D72F7FEC85000A3FBC /* TransportDataService.swift */; };
+		D51FC7D92F7FEC85000A3FBC /* TransportDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51FC7D72F7FEC85000A3FBC /* TransportDataService.swift */; };
+		D51FC7DA2F7FF007000A3FBC /* Symbols.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D503BCCE2F7FD9A000C7A185 /* Symbols.bundle */; };
+		D51FC7DD2F7FF41F000A3FBC /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = D5C3DD662F7FB92F008F4297 /* Config.xcconfig */; };
+		D57BCFF62F80E125009621FF /* Symbols.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D503BCCE2F7FD9A000C7A185 /* Symbols.bundle */; };
+		D57BCFFC2F810DF1009621FF /* UtilitySymbols.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D57BCFFB2F810DF1009621FF /* UtilitySymbols.bundle */; };
+		D57BCFFD2F810DF1009621FF /* UtilitySymbols.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D57BCFFB2F810DF1009621FF /* UtilitySymbols.bundle */; };
+		D57BD0012F8125EB009621FF /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57BD0002F8125EB009621FF /* TextView.swift */; };
+		D57BD0032F812863009621FF /* UtilitySymbolType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57BD0022F812863009621FF /* UtilitySymbolType.swift */; };
+		D57BD0042F812863009621FF /* UtilitySymbolType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57BD0022F812863009621FF /* UtilitySymbolType.swift */; };
+		D57BD0092F812B9A009621FF /* PermissionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57BD0082F812B9A009621FF /* PermissionService.swift */; };
+		D57BD00B2F812BDB009621FF /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57BD00A2F812BDB009621FF /* WelcomeView.swift */; };
+		D57BD00D2F812E30009621FF /* XCConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57BD00C2F812E30009621FF /* XCConfig.swift */; };
+		D57BD00E2F812E30009621FF /* XCConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57BD00C2F812E30009621FF /* XCConfig.swift */; };
+		D57BD0102F8131CB009621FF /* TransportDataServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57BD00F2F8131CB009621FF /* TransportDataServiceTests.swift */; };
+		D57BD0122F8131D2009621FF /* SymbolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57BD0112F8131D2009621FF /* SymbolTests.swift */; };
+		D57BD0142F8131DA009621FF /* FilePathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57BD0132F8131DA009621FF /* FilePathTests.swift */; };
+		D5C3DD4A2F7FB7A4008F4297 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5C3DD422F7FB7A4008F4297 /* Assets.xcassets */; };
+		D5C3DD572F7FB7DA008F4297 /* BitKeyboardExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D5C3DD502F7FB7DA008F4297 /* BitKeyboardExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D5C3DD612F7FB7EA008F4297 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C3DD5E2F7FB7EA008F4297 /* KeyboardViewController.swift */; };
+		D5C3DD672F7FB92F008F4297 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = D5C3DD662F7FB92F008F4297 /* Config.xcconfig */; };
+		D5C3DD722F7FBEE5008F4297 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C3DD6F2F7FBEE5008F4297 /* ContentView.swift */; };
+		D5C3DD762F7FC172008F4297 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C3DD752F7FC172008F4297 /* RootView.swift */; };
+		D5C3DD7E2F7FC43C008F4297 /* FilePath.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C3DD7D2F7FC43C008F4297 /* FilePath.swift */; };
+		D5C3DD7F2F7FC455008F4297 /* FilePath.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C3DD7D2F7FC43C008F4297 /* FilePath.swift */; };
+		D5C3DD852F7FCB9B008F4297 /* Symbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C3DD842F7FCB9B008F4297 /* Symbol.swift */; };
+		D5C3DD862F7FCB9B008F4297 /* Symbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C3DD842F7FCB9B008F4297 /* Symbol.swift */; };
+/* End PBXBuildFile section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		D5C3DD332F7F702F008F4297 /* BitKeyboard */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = BitKeyboard;
-			sourceTree = "<group>";
+/* Begin PBXContainerItemProxy section */
+		D5C3DD552F7FB7DA008F4297 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5C3DD292F7F702F008F4297 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5C3DD4F2F7FB7DA008F4297;
+			remoteInfo = BitKeyboardExtension;
 		};
-/* End PBXFileSystemSynchronizedRootGroup section */
+		D5C3DD912F7FD152008F4297 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5C3DD292F7F702F008F4297 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5C3DD302F7F702F008F4297;
+			remoteInfo = BitKeyboard;
+		};
+		D5C3DDA02F7FD15A008F4297 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5C3DD292F7F702F008F4297 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5C3DD302F7F702F008F4297;
+			remoteInfo = BitKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D5C3DD5C2F7FB7DA008F4297 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D5C3DD572F7FB7DA008F4297 /* BitKeyboardExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D503BCC72F7FD92800C7A185 /* SymbolSecureMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolSecureMapper.swift; sourceTree = "<group>"; };
+		D503BCC92F7FD92E00C7A185 /* TransportSecureMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportSecureMapper.swift; sourceTree = "<group>"; };
+		D503BCCE2F7FD9A000C7A185 /* Symbols.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Symbols.bundle; sourceTree = "<group>"; };
+		D503BCD02F7FDA9300C7A185 /* TransportSecureMapperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportSecureMapperTests.swift; sourceTree = "<group>"; };
+		D503BCD42F7FDD7400C7A185 /* KeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardView.swift; sourceTree = "<group>"; };
+		D503BCD72F7FDD9D00C7A185 /* ImageExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtensions.swift; sourceTree = "<group>"; };
+		D5183A152F8367CE006CC380 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		D51FC7CF2F7FDF49000A3FBC /* CGFloatExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGFloatExtensions.swift; sourceTree = "<group>"; };
+		D51FC7D72F7FEC85000A3FBC /* TransportDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportDataService.swift; sourceTree = "<group>"; };
+		D51FC7DE2F7FF56F000A3FBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D57BCFFB2F810DF1009621FF /* UtilitySymbols.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UtilitySymbols.bundle; sourceTree = "<group>"; };
+		D57BD0002F8125EB009621FF /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		D57BD0022F812863009621FF /* UtilitySymbolType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilitySymbolType.swift; sourceTree = "<group>"; };
+		D57BD0082F812B9A009621FF /* PermissionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionService.swift; sourceTree = "<group>"; };
+		D57BD00A2F812BDB009621FF /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		D57BD00C2F812E30009621FF /* XCConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCConfig.swift; sourceTree = "<group>"; };
+		D57BD00F2F8131CB009621FF /* TransportDataServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportDataServiceTests.swift; sourceTree = "<group>"; };
+		D57BD0112F8131D2009621FF /* SymbolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolTests.swift; sourceTree = "<group>"; };
+		D57BD0132F8131DA009621FF /* FilePathTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilePathTests.swift; sourceTree = "<group>"; };
+		D5C3DD312F7F702F008F4297 /* BitKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5C3DD422F7FB7A4008F4297 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5C3DD502F7FB7DA008F4297 /* BitKeyboardExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = BitKeyboardExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5C3DD5D2F7FB7EA008F4297 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5C3DD5E2F7FB7EA008F4297 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		D5C3DD622F7FB8F2008F4297 /* BitKeyboard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BitKeyboard.entitlements; sourceTree = "<group>"; };
+		D5C3DD632F7FB8F8008F4297 /* BitKeyboardExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BitKeyboardExtension.entitlements; sourceTree = "<group>"; };
+		D5C3DD662F7FB92F008F4297 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		D5C3DD6F2F7FBEE5008F4297 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D5C3DD752F7FC172008F4297 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		D5C3DD7D2F7FC43C008F4297 /* FilePath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilePath.swift; sourceTree = "<group>"; };
+		D5C3DD842F7FCB9B008F4297 /* Symbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symbol.swift; sourceTree = "<group>"; };
+		D5C3DD8D2F7FD152008F4297 /* UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5C3DD9A2F7FD15A008F4297 /* UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		D5C3DD2E2F7F702F008F4297 /* Frameworks */ = {
@@ -26,13 +127,98 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D5C3DD4D2F7FB7DA008F4297 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5C3DD8A2F7FD152008F4297 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5C3DD972F7FD15A008F4297 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D503BCCC2F7FD93700C7A185 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D503BCC92F7FD92E00C7A185 /* TransportSecureMapper.swift */,
+				D51FC7D72F7FEC85000A3FBC /* TransportDataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D503BCCD2F7FD99B00C7A185 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D57BD00C2F812E30009621FF /* XCConfig.swift */,
+				D5C3DD7D2F7FC43C008F4297 /* FilePath.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		D503BCCF2F7FD9A300C7A185 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D57BCFFB2F810DF1009621FF /* UtilitySymbols.bundle */,
+				D503BCCE2F7FD9A000C7A185 /* Symbols.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D503BCD62F7FDD9800C7A185 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D503BCD72F7FDD9D00C7A185 /* ImageExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D503BCD92F7FDDB800C7A185 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D51FC7CF2F7FDF49000A3FBC /* CGFloatExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D57BCFFE2F8124F3009621FF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D5C3DD842F7FCB9B008F4297 /* Symbol.swift */,
+				D57BD0022F812863009621FF /* UtilitySymbolType.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D57BCFFF2F812596009621FF /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D57BD0002F8125EB009621FF /* TextView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		D5C3DD282F7F702F008F4297 = {
 			isa = PBXGroup;
 			children = (
-				D5C3DD332F7F702F008F4297 /* BitKeyboard */,
+				D5183A152F8367CE006CC380 /* README.md */,
+				D5C3DD472F7FB7A4008F4297 /* Source */,
+				D5C3DD5F2F7FB7EA008F4297 /* BitKeyboardExtension */,
+				D5C3DD682F7FBC4D008F4297 /* Shared */,
+				D5C3DDA62F7FD161008F4297 /* UnitTests */,
 				D5C3DD322F7F702F008F4297 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,8 +227,111 @@
 			isa = PBXGroup;
 			children = (
 				D5C3DD312F7F702F008F4297 /* BitKeyboard.app */,
+				D5C3DD502F7FB7DA008F4297 /* BitKeyboardExtension.appex */,
+				D5C3DD8D2F7FD152008F4297 /* UnitTests.xctest */,
+				D5C3DD9A2F7FD15A008F4297 /* UITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		D5C3DD442F7FB7A4008F4297 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D5C3DD622F7FB8F2008F4297 /* BitKeyboard.entitlements */,
+				D5C3DD422F7FB7A4008F4297 /* Assets.xcassets */,
+				D51FC7DE2F7FF56F000A3FBC /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D5C3DD472F7FB7A4008F4297 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				D5C3DD652F7FB91A008F4297 /* Configuration */,
+				D5C3DD702F7FBEE5008F4297 /* Modules */,
+				D5C3DD6C2F7FBEA9008F4297 /* Services */,
+				D5C3DD442F7FB7A4008F4297 /* Resources */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		D5C3DD5F2F7FB7EA008F4297 /* BitKeyboardExtension */ = {
+			isa = PBXGroup;
+			children = (
+				D5C3DD5E2F7FB7EA008F4297 /* KeyboardViewController.swift */,
+				D503BCD42F7FDD7400C7A185 /* KeyboardView.swift */,
+				D503BCD62F7FDD9800C7A185 /* Extensions */,
+				D5C3DD642F7FB902008F4297 /* Resources */,
+			);
+			path = BitKeyboardExtension;
+			sourceTree = "<group>";
+		};
+		D5C3DD642F7FB902008F4297 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D5C3DD632F7FB8F8008F4297 /* BitKeyboardExtension.entitlements */,
+				D5C3DD5D2F7FB7EA008F4297 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D5C3DD652F7FB91A008F4297 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				D5C3DD662F7FB92F008F4297 /* Config.xcconfig */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		D5C3DD682F7FBC4D008F4297 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				D57BCFFE2F8124F3009621FF /* Models */,
+				D503BCD92F7FDDB800C7A185 /* Extensions */,
+				D503BCCC2F7FD93700C7A185 /* Services */,
+				D503BCCD2F7FD99B00C7A185 /* Utils */,
+				D503BCCF2F7FD9A300C7A185 /* Resources */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		D5C3DD6C2F7FBEA9008F4297 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D503BCC72F7FD92800C7A185 /* SymbolSecureMapper.swift */,
+				D57BD0082F812B9A009621FF /* PermissionService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D5C3DD702F7FBEE5008F4297 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				D5C3DD732F7FBEE7008F4297 /* Views */,
+				D57BCFFF2F812596009621FF /* Components */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		D5C3DD732F7FBEE7008F4297 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D5C3DD752F7FC172008F4297 /* RootView.swift */,
+				D57BD00A2F812BDB009621FF /* WelcomeView.swift */,
+				D5C3DD6F2F7FBEE5008F4297 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D5C3DDA62F7FD161008F4297 /* UnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				D503BCD02F7FDA9300C7A185 /* TransportSecureMapperTests.swift */,
+				D57BD00F2F8131CB009621FF /* TransportDataServiceTests.swift */,
+				D57BD0112F8131D2009621FF /* SymbolTests.swift */,
+				D57BD0132F8131DA009621FF /* FilePathTests.swift */,
+			);
+			path = UnitTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -55,13 +344,12 @@
 				D5C3DD2D2F7F702F008F4297 /* Sources */,
 				D5C3DD2E2F7F702F008F4297 /* Frameworks */,
 				D5C3DD2F2F7F702F008F4297 /* Resources */,
+				D5C3DD5C2F7FB7DA008F4297 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				D5C3DD332F7F702F008F4297 /* BitKeyboard */,
+				D5C3DD562F7FB7DA008F4297 /* PBXTargetDependency */,
 			);
 			name = BitKeyboard;
 			packageProductDependencies = (
@@ -69,6 +357,65 @@
 			productName = BitKeyboard;
 			productReference = D5C3DD312F7F702F008F4297 /* BitKeyboard.app */;
 			productType = "com.apple.product-type.application";
+		};
+		D5C3DD4F2F7FB7DA008F4297 /* BitKeyboardExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5C3DD592F7FB7DA008F4297 /* Build configuration list for PBXNativeTarget "BitKeyboardExtension" */;
+			buildPhases = (
+				D5C3DD4C2F7FB7DA008F4297 /* Sources */,
+				D5C3DD4D2F7FB7DA008F4297 /* Frameworks */,
+				D5C3DD4E2F7FB7DA008F4297 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BitKeyboardExtension;
+			packageProductDependencies = (
+			);
+			productName = BitKeyboardExtension;
+			productReference = D5C3DD502F7FB7DA008F4297 /* BitKeyboardExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		D5C3DD8C2F7FD152008F4297 /* UnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5C3DD932F7FD152008F4297 /* Build configuration list for PBXNativeTarget "UnitTests" */;
+			buildPhases = (
+				D5C3DD892F7FD152008F4297 /* Sources */,
+				D5C3DD8A2F7FD152008F4297 /* Frameworks */,
+				D5C3DD8B2F7FD152008F4297 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5C3DD922F7FD152008F4297 /* PBXTargetDependency */,
+			);
+			name = UnitTests;
+			packageProductDependencies = (
+			);
+			productName = UnitTests;
+			productReference = D5C3DD8D2F7FD152008F4297 /* UnitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D5C3DD992F7FD15A008F4297 /* UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5C3DDA22F7FD15A008F4297 /* Build configuration list for PBXNativeTarget "UITests" */;
+			buildPhases = (
+				D5C3DD962F7FD15A008F4297 /* Sources */,
+				D5C3DD972F7FD15A008F4297 /* Frameworks */,
+				D5C3DD982F7FD15A008F4297 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5C3DDA12F7FD15A008F4297 /* PBXTargetDependency */,
+			);
+			name = UITests;
+			packageProductDependencies = (
+			);
+			productName = UITests;
+			productReference = D5C3DD9A2F7FD15A008F4297 /* UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -82,6 +429,17 @@
 				TargetAttributes = {
 					D5C3DD302F7F702F008F4297 = {
 						CreatedOnToolsVersion = 26.4;
+					};
+					D5C3DD4F2F7FB7DA008F4297 = {
+						CreatedOnToolsVersion = 26.4;
+					};
+					D5C3DD8C2F7FD152008F4297 = {
+						CreatedOnToolsVersion = 26.4;
+						TestTargetID = D5C3DD302F7F702F008F4297;
+					};
+					D5C3DD992F7FD15A008F4297 = {
+						CreatedOnToolsVersion = 26.4;
+						TestTargetID = D5C3DD302F7F702F008F4297;
 					};
 				};
 			};
@@ -100,12 +458,44 @@
 			projectRoot = "";
 			targets = (
 				D5C3DD302F7F702F008F4297 /* BitKeyboard */,
+				D5C3DD4F2F7FB7DA008F4297 /* BitKeyboardExtension */,
+				D5C3DD8C2F7FD152008F4297 /* UnitTests */,
+				D5C3DD992F7FD15A008F4297 /* UITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		D5C3DD2F2F7F702F008F4297 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D57BCFFC2F810DF1009621FF /* UtilitySymbols.bundle in Resources */,
+				D5C3DD672F7FB92F008F4297 /* Config.xcconfig in Resources */,
+				D5183A162F8367CE006CC380 /* README.md in Resources */,
+				D5C3DD4A2F7FB7A4008F4297 /* Assets.xcassets in Resources */,
+				D51FC7DA2F7FF007000A3FBC /* Symbols.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5C3DD4E2F7FB7DA008F4297 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D57BCFF62F80E125009621FF /* Symbols.bundle in Resources */,
+				D57BCFFD2F810DF1009621FF /* UtilitySymbols.bundle in Resources */,
+				D51FC7DD2F7FF41F000A3FBC /* Config.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5C3DD8B2F7FD152008F4297 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5C3DD982F7FD15A008F4297 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -119,14 +509,81 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5C3DD7E2F7FC43C008F4297 /* FilePath.swift in Sources */,
+				D5C3DD762F7FC172008F4297 /* RootView.swift in Sources */,
+				D51FC7D02F7FDF49000A3FBC /* CGFloatExtensions.swift in Sources */,
+				D5C3DD852F7FCB9B008F4297 /* Symbol.swift in Sources */,
+				D503BCC82F7FD92800C7A185 /* SymbolSecureMapper.swift in Sources */,
+				D57BD00D2F812E30009621FF /* XCConfig.swift in Sources */,
+				D51FC7D82F7FEC85000A3FBC /* TransportDataService.swift in Sources */,
+				D57BD0042F812863009621FF /* UtilitySymbolType.swift in Sources */,
+				D57BD00B2F812BDB009621FF /* WelcomeView.swift in Sources */,
+				D57BD0012F8125EB009621FF /* TextView.swift in Sources */,
+				D57BD0092F812B9A009621FF /* PermissionService.swift in Sources */,
+				D503BCCA2F7FD92E00C7A185 /* TransportSecureMapper.swift in Sources */,
+				D5C3DD722F7FBEE5008F4297 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5C3DD4C2F7FB7DA008F4297 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5C3DD7F2F7FC455008F4297 /* FilePath.swift in Sources */,
+				D5C3DD862F7FCB9B008F4297 /* Symbol.swift in Sources */,
+				D51FC7D12F7FDF49000A3FBC /* CGFloatExtensions.swift in Sources */,
+				D5C3DD612F7FB7EA008F4297 /* KeyboardViewController.swift in Sources */,
+				D57BD0032F812863009621FF /* UtilitySymbolType.swift in Sources */,
+				D503BCD52F7FDD7400C7A185 /* KeyboardView.swift in Sources */,
+				D51FC7D92F7FEC85000A3FBC /* TransportDataService.swift in Sources */,
+				D503BCD82F7FDD9D00C7A185 /* ImageExtensions.swift in Sources */,
+				D57BD00E2F812E30009621FF /* XCConfig.swift in Sources */,
+				D503BCCB2F7FD92E00C7A185 /* TransportSecureMapper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5C3DD892F7FD152008F4297 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D57BD0102F8131CB009621FF /* TransportDataServiceTests.swift in Sources */,
+				D57BD0122F8131D2009621FF /* SymbolTests.swift in Sources */,
+				D503BCD12F7FDA9300C7A185 /* TransportSecureMapperTests.swift in Sources */,
+				D57BD0142F8131DA009621FF /* FilePathTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5C3DD962F7FD15A008F4297 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		D5C3DD562F7FB7DA008F4297 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5C3DD4F2F7FB7DA008F4297 /* BitKeyboardExtension */;
+			targetProxy = D5C3DD552F7FB7DA008F4297 /* PBXContainerItemProxy */;
+		};
+		D5C3DD922F7FD152008F4297 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5C3DD302F7F702F008F4297 /* BitKeyboard */;
+			targetProxy = D5C3DD912F7FD152008F4297 /* PBXContainerItemProxy */;
+		};
+		D5C3DDA12F7FD15A008F4297 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5C3DD302F7F702F008F4297 /* BitKeyboard */;
+			targetProxy = D5C3DDA02F7FD15A008F4297 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
 		D5C3DD3A2F7F7030008F4297 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5C3DD662F7FB92F008F4297 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -191,6 +648,7 @@
 		};
 		D5C3DD3B2F7F7030008F4297 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5C3DD662F7FB92F008F4297 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -248,25 +706,29 @@
 		};
 		D5C3DD3D2F7F7030008F4297 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5C3DD662F7FB92F008F4297 /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Source/Resources/BitKeyboard.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JVCH36WBMP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.app.BitKeyboard;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_BUNDLE_IDENTIFIER)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -280,25 +742,29 @@
 		};
 		D5C3DD3E2F7F7030008F4297 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5C3DD662F7FB92F008F4297 /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Source/Resources/BitKeyboard.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JVCH36WBMP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.app.BitKeyboard;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_BUNDLE_IDENTIFIER)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -307,6 +773,150 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D5C3DD5A2F7FB7DA008F4297 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5C3DD662F7FB92F008F4297 /* Config.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = BitKeyboardExtension/Resources/BitKeyboardExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JVCH36WBMP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/BitKeyboardExtension/Resources/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Keyboard;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(EXTENSION_BUNDLE_IDENTIFIER)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5C3DD5B2F7FB7DA008F4297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5C3DD662F7FB92F008F4297 /* Config.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = BitKeyboardExtension/Resources/BitKeyboardExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JVCH36WBMP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/BitKeyboardExtension/Resources/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Keyboard;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(EXTENSION_BUNDLE_IDENTIFIER)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D5C3DD942F7FD152008F4297 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JVCH36WBMP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.BitKeyboard.UnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BitKeyboard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BitKeyboard";
+			};
+			name = Debug;
+		};
+		D5C3DD952F7FD152008F4297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JVCH36WBMP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.BitKeyboard.UnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BitKeyboard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BitKeyboard";
+			};
+			name = Release;
+		};
+		D5C3DDA32F7FD15A008F4297 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JVCH36WBMP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.BitKeyboard.UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BitKeyboard;
+			};
+			name = Debug;
+		};
+		D5C3DDA42F7FD15A008F4297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JVCH36WBMP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.BitKeyboard.UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BitKeyboard;
 			};
 			name = Release;
 		};
@@ -327,6 +937,33 @@
 			buildConfigurations = (
 				D5C3DD3D2F7F7030008F4297 /* Debug */,
 				D5C3DD3E2F7F7030008F4297 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5C3DD592F7FB7DA008F4297 /* Build configuration list for PBXNativeTarget "BitKeyboardExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5C3DD5A2F7FB7DA008F4297 /* Debug */,
+				D5C3DD5B2F7FB7DA008F4297 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5C3DD932F7FD152008F4297 /* Build configuration list for PBXNativeTarget "UnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5C3DD942F7FD152008F4297 /* Debug */,
+				D5C3DD952F7FD152008F4297 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5C3DDA22F7FD15A008F4297 /* Build configuration list for PBXNativeTarget "UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5C3DDA32F7FD15A008F4297 /* Debug */,
+				D5C3DDA42F7FD15A008F4297 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
