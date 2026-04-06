@@ -36,16 +36,22 @@ struct RootView: App {
             .onAppear {
                 handleNavigation()
             }
+            .onChange(of: scenePhase) { _, newPhase in
+                if newPhase == .active {
+                    handleNavigation()
+                }
+            }
         }
     }
-
+    
     private func handleNavigation() {
-        guard state == .none else { return }
         let mapper = SymbolSecureMapper()
-        try? mapper.generateSealedSymbolIDs()
+        try? mapper.generateSealedSymbolIDsIfNeeded()
         
         permissionService.refresh()
-        state = permissionService.isKeyboardFullyEnabled ? .content : .welcome
+        withAnimation {
+            state = permissionService.isKeyboardFullyEnabled ? .content : .welcome
+        }
     }
 
 }
