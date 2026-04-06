@@ -61,7 +61,6 @@ struct KeyboardView: View {
                     DragGesture(minimumDistance: 0)
                         .onChanged { _ in
                             guard deleteTimer == nil else { return }
-                            onDelete()
                             deleteTimer = Timer.scheduledTimer(withTimeInterval: 1.5, repeats: false) { _ in
                                 onDelete()
                                 deleteTimer = Timer.scheduledTimer(withTimeInterval: 0.15, repeats: true) { _ in
