@@ -2,8 +2,8 @@
 
 A custom iOS keyboard operating on bitmap images instead of text, designed with security as the primary constraint.
 
-**Targets:** BitKeyboard, BitKeyboardExtension
-**Deployment Target:** iOS 18+
+**Targets:** BitKeyboard, BitKeyboardExtension\
+**Deployment Target:** iOS 18+\
 **Framework:** SwiftUI
 
 ## Architecture
@@ -24,7 +24,7 @@ A custom iOS keyboard operating on bitmap images instead of text, designed with 
 5. Notification signals the app
 6. App decrypts the transport token, recovers the symbol mapping, matches it to the corresponding bitmap
 
-**Data Transport** Using Darwin notifications because it's a real-time signaling mechanism between the app and the extension.
+**Data Transport:** Using Darwin notifications because it's a real-time signaling mechanism between the app and the extension.
 
 ## Design Mindset
 
