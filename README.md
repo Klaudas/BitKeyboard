@@ -50,8 +50,10 @@ A custom iOS keyboard operating on bitmap images instead of text, designed with 
 **Is it overkill?** For 12 animal symbols on a single device, yes. Two layers of encryption and polymorphic tokens are more than the task requires.
 
 **How would this extend to multi-device?**
+
 **Server:**
 - Generates the encrypted symbol mappings per-device using each device's Secure Enclave public key
 - Stores and serves pre-defined bitmaps
+
 **Client:**
 - On-device architecture stays identical — only the mapping origin and asset delivery change
